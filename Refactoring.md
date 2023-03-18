@@ -9,3 +9,8 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+1. Removed const vars from local scope, to reduce the function size;
+2. Changed the declaration of the function, to make it easier to read its name;
+3. Added exit point in the begining, to make it cleaner,
+4. Added ternary condition, to reduced if statements;
+5. Changed conditions positions, to reduce redudance.
